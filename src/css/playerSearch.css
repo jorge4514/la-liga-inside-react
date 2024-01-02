@@ -1,0 +1,39 @@
+/* PlayerSearch.css */
+.input-container {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: calc(100% - 35px);
+    /* Ajuste para dejar espacio para el ícono de lupa */
+    padding: 10px;
+    border: 1px solid rgb(0, 142, 208);
+    border-radius: 20px;
+    /* Hacemos los bordes más redondeados */
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    caret-color: rgb(0, 142, 208);
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.input-container input::placeholder {
+    color: #797979;
+}
+
+.search-icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-icon img {
+    width: 20px;
+    height: 20px;
+}

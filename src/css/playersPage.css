@@ -1,0 +1,14 @@
+.title-list{
+    text-align: center;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.root{
+    overflow: hidden;    
+}
+

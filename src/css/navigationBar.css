@@ -1,0 +1,54 @@
+/* NavigationBar.css */
+.navbar1 {
+  position: fixed; /* La barra se mantendrá fija en la parte superior */
+  top: 0; /* La ubicamos en la parte superior */
+  width: 100%; /* La barra ocupará todo el ancho de la pantalla */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 60px !important; /* Ajusta el padding para hacer la barra más ancha */
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  z-index: 20;
+  margin-bottom: 50px;
+}
+
+.nav-link{
+  color: rgb(81, 98, 115);
+  text-align: center;
+  align-items: center;
+  padding-top: 10px !important;
+}
+
+.logo img {
+  margin-right: 20px;
+  width: 50px; 
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1; /* Ajusta el crecimiento para ocupar todo el espacio disponible */
+  justify-content: center; /* Centra horizontalmente los enlaces */
+}
+
+.nav-links li {
+  margin: 0 10px; /* Ajusta el margen entre enlaces */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px; /* Tamaño de letra más pequeño */
+}
+
+.nav-links a:hover {
+  color: #007BFF;
+}
+
+body {
+  margin-top: 60px; /* Ajusta el espacio en la parte superior para que no se solape con la barra fija */
+}
+

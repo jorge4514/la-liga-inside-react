@@ -1,0 +1,47 @@
+.stats-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semitransparente para superponerse al contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 67px;
+    height: 100%;
+}
+
+.page-stats-container {
+    /* Estilos para el contenedor de estadísticas, ajusta según necesidades */
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos.css */
+
+.boton-cierre {
+    background-color: transparent;
+    border: none;
+    color: #ffffff; /* Color del texto */
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Efecto de transición de color al pasar el ratón */
+    margin-left: 70px;
+    float: right;
+  }
+  
+  .boton-cierre:hover {
+    color: #ac1909; /* Cambia el color al pasar el ratón sobre el botón */
+  }
+  .player-stats-container{
+    margin: 0 auto;
+  }
+  
+  
